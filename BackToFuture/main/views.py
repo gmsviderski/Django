@@ -5,4 +5,4 @@ def index(request):
     return render(request, 'main/index.html')
 
 def artists(request):
-    return render(request, 'main/artists')
+    return render(request, 'main/artists.html')
