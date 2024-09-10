@@ -6,3 +6,9 @@ def index(request):
 
 def artists(request):
     return render(request, 'main/artists.html')
+
+def part2(request):
+    return render(request, 'main/part2.html')
+
+def part3(request):
+    return render(request, 'main/part3.html')
